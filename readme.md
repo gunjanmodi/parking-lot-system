@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Python project implements a simple Parking Lot System using low-level coding practices. The project follows Test-Driven Development (TDD) principles, ensuring reliability and maintainability through a comprehensive set of unit tests by following SOLID priciples.
+This Python project implements a simple Parking Lot System using low-level coding practices. The project follows Test-Driven Development (TDD) principles, ensuring reliability and maintainability through a comprehensive set of unit tests. Also, follows SOLID principles.
 
 ## Installation
 
@@ -41,7 +41,7 @@ Follow these steps to set up the Parking Lot System on your machine:
 To run the unit tests, use the following command:
 
 ```bash
-python -m unittest discover tests
+python -m unittest -v
 ```
 
 This command will discover and run all the tests in the `tests` directory.
@@ -50,13 +50,9 @@ This command will discover and run all the tests in the `tests` directory.
 
 The project follows a modular structure to enhance readability and maintainability. Here's an overview of the key directories:
 
-- **`src/`**: Contains the source code for the Parking Lot System.
-  - `parking_lot_system.py`: Main application logic.
-  - Other relevant modules.
+- **`src/parking_lot`**: Contains the source code for the Parking Lot System.
 
-- **`tests/`**: Houses all the unit tests for the Parking Lot System.
-  - `test_parking_lot_system.py`: Unit tests for the Parking Lot System.
-  - Other test modules as needed.
+- **`src/tests/`**: Houses all the unit tests for the Parking Lot System.
 
 ## Contributing
 
