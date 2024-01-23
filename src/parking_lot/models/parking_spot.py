@@ -6,8 +6,9 @@ class ParkingSpot:
     number: int = None
     parked_vehicle: Optional[Vehicle] = None
 
-    def __init__(self, number):
-        self.number = number
+    def __init__(self, number: int):
+        self.number: int = number
+        self.parked_vehicle: Optional[Vehicle] = None
 
     def park(self, vehicle: Vehicle) -> None:
         self.parked_vehicle = vehicle
