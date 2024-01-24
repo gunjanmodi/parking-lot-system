@@ -1,6 +1,7 @@
 import unittest
 
 from typing import Dict, Any
+
 from parking_lot.models.parking_lot import ParkingLot
 from .test_address import create_address_1
 
